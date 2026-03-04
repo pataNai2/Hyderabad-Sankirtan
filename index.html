@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hyderabad Sankirtan</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Georgia, serif;
+}
+
+body{
+    min-height:100vh;
+    background: url("bg.png") no-repeat center center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* 70% overlay */
+.overlay{
+    background: rgba(250, 246, 241, 0.7);
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+/* Logo */
+.logo{
+    width:140px;
+    height:140px;
+    max-width:40vw;
+    max-height:40vw;
+    border-radius:50%;
+    background:url("logo.png") no-repeat center center/cover;
+    border:2px solid black;
+    margin-bottom:20px;
+}
+
+/* Title Box */
+.title-box{
+    background: rgba(250, 246, 241, 0.5);
+    border:2px solid black;
+    padding:20px 40px;
+    border-radius:25px;
+    margin-bottom:30px;
+    text-align:center;
+    width:90%;
+    max-width:500px;
+}
+
+.title-box h1{
+    color:#5f4831;
+    font-size:clamp(24px, 5vw, 40px);
+    letter-spacing:3px;
+}
+
+/* Buttons */
+.link-btn{
+    width:90%;
+    max-width:400px;
+    padding:15px;
+    margin:12px 0;
+    background: rgba(250, 246, 241, 0.5);
+    border:2px solid black;
+    border-radius:40px;
+    text-align:center;
+    text-decoration:none;
+    color:#5f4831;
+    font-size:clamp(16px, 4vw, 18px);
+    font-weight:bold;
+    letter-spacing:2px;
+    transition:0.3s ease;
+}
+
+.link-btn:hover{
+    transform:scale(1.05);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+    <div class="logo"></div>
+
+    <div class="title-box">
+        <h1>HYDERABAD<br>SANKIRTAN</h1>
+    </div>
+
+    <a href="https://instagram.com/yourpage" target="_blank" class="link-btn">
+        INSTAGRAM
+    </a>
+
+    <a href="https://chat.whatsapp.com/yourgroup" target="_blank" class="link-btn">
+        WHATSAPP GROUP
+    </a>
+
+    <a href="gallery.html" class="link-btn">
+        GALLERY
+    </a>
+
+</div>
+
+</body>
+</html>
